@@ -36,7 +36,7 @@ def process():
     sleep()
 
     # 循环3次进行翻页和数据提取
-    for _ in range(10):
+    for _ in range(100):
         res = []
         # 找到页码
         page_num = driver.find_element(By.ID, "ext-comp-1004").get_attribute("value")
